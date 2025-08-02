@@ -1,0 +1,74 @@
+/* Reset margin và padding cho body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa; /* Màu nền cho toàn trang */
+}
+
+/* Định nghĩa màu nền và kiểu cho thanh header */
+.header-bg {
+    position: fixed; /* Đặt vị trí cố định */
+    top: 0; /* Đưa lên đầu trang */
+    left: 0; /* Căn trái */
+    width: 100%; /* Chiều rộng 100% */
+    z-index: 1000; /* Đảm bảo nó ở trên cùng */
+}
+
+/* Style cho navbar */
+.navbar {
+    background-color: green; /* Màu nền cho navbar */
+    border-radius: 10px; /* Bo góc navbar */
+    padding: 0.5rem 1rem; /* Padding cho navbar */
+}
+
+/* Style cho các liên kết trong navbar */
+.nav-item {
+    font-size: 16px; /* Kích thước chữ */
+    color: white; /* Màu chữ mặc định */
+    margin: 0 15px; /* Khoảng cách giữa các mục */
+    transition: color 0.3s; /* Hiệu ứng chuyển màu */
+}
+
+/* Hiệu ứng khi di chuột qua các liên kết */
+.nav-item:hover {
+    color: #f1c40f; /* Màu chữ khi hover */
+}
+
+/* Style cho thanh tìm kiếm */
+.form-inline {
+    display: flex; /* Hiển thị flex cho thanh tìm kiếm */
+}
+
+/* Style cho input tìm kiếm */
+.form-control {
+    border: 1px solid #ccc; /* Đường viền cho input */
+    border-radius: 5px; /* Bo góc cho input */
+    padding: 5px; /* Padding cho input */
+    width: 250px; /* Chiều rộng cố định cho input */
+}
+
+/* Style cho nút tìm kiếm */
+.btn.search-icon {
+    background-color: transparent; /* Nền trong suốt */
+    border: none; /* Không có đường viền */
+    cursor: pointer; /* Con trỏ chuột */
+}
+
+/* Style cho giỏ hàng */
+.btn.px-0 {
+    display: flex; /* Hiển thị flex */
+    align-items: center; /* Căn giữa dọc */
+    position: relative; /* Để có thể định vị badge */
+}
+
+/* Style cho badge trong giỏ hàng */
+.badge {
+    position: absolute; /* Đặt vị trí badge */
+    top: 0; /* Căn trên cùng */
+    right: 0; /* Căn bên phải */
+    transform: translate(50%, -50%); /* Di chuyển badge lên một chút */
+    background-color: white; /* Màu nền trắng cho badge */
+    color: black; /* Màu chữ đen cho badge */
+    border: 1px solid black; /* Đường viền đen cho badge */
+}

@@ -1,0 +1,151 @@
+    /* CSS cho ảnh sản phẩm */
+    .product-img img {
+        width: 90%; /* Chiều rộng đầy đủ của khung */
+        height: 300px; /* Chiều cao cố định */
+        object-fit: cover; /* Cắt ảnh cho phù hợp với khung */
+    }
+    img {
+        width: 100%;
+        height: auto; /* Giữ tỷ lệ khung hình */
+        object-fit: cover; /* Đảm bảo ảnh không bị méo */
+    }
+    
+            /* CSS cho ảnh sản phẩm */
+    .product-img img {
+        width: 90%; /* Chiều rộng đầy đủ của khung */
+        height: 300px; /* Chiều cao cố định */
+        object-fit: cover; /* Cắt ảnh cho phù hợp với khung */
+    }
+    /* thay dòng này vào các chỗ muốn đổi màu: btn btn-block my-3 py-3 custom-green-button*/
+    .custom-green-button {
+        background-color: #39cd10 !important; /* Màu xanh lá cây */
+        border-color: #06d629 !important;     /* Màu viền */
+        color: white !important;              /* Màu chữ */
+    }
+    
+    .custom-green-button:hover {
+        background-color: #29fc19 !important; /* Màu khi rê chuột */
+        border-color: #45d10a !important;
+    }
+    .suggested-product-img img {
+        width: 70%; /* Giảm chiều rộng xuống 70% của khung cha */
+        height: auto; /* Giữ chiều cao tự động để giữ tỉ lệ ảnh */
+        max-height: 400px; /* Giới hạn chiều cao tối đa để ảnh không bị quá cao */
+        object-fit: cover; /* Cắt ảnh cho phù hợp với khung */
+        margin: 0 auto; /* Căn giữa hình ảnh */
+        display: block; /* Hiển thị dưới dạng khối để căn giữa */
+    }
+    /* CSS */
+.related-products {
+    margin-top: 50px; /* Điều chỉnh giá trị này để tăng/giảm khoảng cách */
+}
+.navbar {
+    background-color: black !important;
+}
+/* Search Bar Styling */
+.form-control {
+    border-radius: 0;
+}
+
+
+/* Đặt màu nền cho toàn bộ thanh header từ đầu đến cuối */
+.header-bg {
+    background-color: #ffffff4c !important; /* Nền trắng cho header */
+}
+
+/* Nếu cần áp dụng thêm cho phần navbar */
+.navbar {
+    background-color: #fffffffa !important;
+    border-radius: 30px; /* Bo tròn các góc */
+    height: 40px; /* Thiết lập chiều cao cụ thể */
+    
+}
+
+/* CSS cho footer */
+.footer-bg {
+    background-color: #cbced1!important; /* Nền màu đen trong suốt */
+    color: #000000; /* Chữ màu trắng cho footer */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.928); /* Hiệu ứng bóng */
+}
+
+.footer-bg .text-secondary {
+    color: #000000 !important; /* Chữ màu trắng cho các phần tử có lớp text-secondary trong footer */
+}
+
+.footer-bg a {
+    color: #000000; /* Đảm bảo rằng các liên kết trong footer có màu trắng */
+}
+
+.footer-bg a:hover {
+    color: #0cb612; /* Màu sắc khi hover cho các liên kết trong footer */
+}
+
+/* Đặt màu chữ cho các mục trong navbar thành màu đen */
+.navbar-nav .nav-link {
+    color: black !important; /* Màu chữ cho các liên kết */
+}
+
+/* Đặt màu chữ cho biểu tượng người dùng và giỏ hàng thành màu đen */
+.navbar-nav .nav-link i {
+    color: black !important; /* Màu chữ cho biểu tượng */
+}
+
+/* Đặt màu chữ cho các mục khi di chuột qua (tuỳ chọn) */
+.navbar-nav .nav-link:hover {
+    color: #30c413 !important; /* Màu chữ khi di chuột qua */
+}
+/* Đặt màu cho biểu tượng kính lúp thành màu đen */
+.form-inline .btn i.fas.fa-search {
+    color: black !important; /* Màu đen cho biểu tượng kính lúp */
+}
+
+/* Đảm bảo nút tìm kiếm luôn hiển thị */
+.form-inline {
+    display: flex; /* Sử dụng flex để căn chỉnh các phần tử */
+}
+/* Đặt màu cho biểu tượng giỏ hàng thành màu đen */
+.navbar-nav .btn i.fas.fa-shopping-cart {
+    color: black !important; /* Màu đen cho biểu tượng giỏ hàng */
+}
+
+/* Đặt màu cho biểu tượng người dùng thành màu đen */
+.navbar-nav .nav-link i.fas.fa-user {
+    color: black !important; /* Màu đen cho biểu tượng người dùng */
+}
+
+#searchMessage {
+    display: none; /* Ẩn thông báo ban đầu */
+    color: black; /* Màu chữ đen */
+    margin-top: 5px; /* Khoảng cách giữa ô tìm kiếm và thông báo */
+    font-weight: bold; /* Chữ đậm */
+    font-size: 14px; /* Kích thước chữ */
+    position: absolute; /* Để định vị thông báo */
+    left: 0; /* Đặt thông báo cùng với ô tìm kiếm */
+    width: 100%; /* Để thông báo rộng bằng ô tìm kiếm */
+    z-index: 9999; /* Đặt trên các phần tử khác */
+}
+.navbar-nav .nav-item {
+    margin: 0 15px; /* Điều chỉnh khoảng cách giữa các chức năng */
+}
+
+.search-icon {
+    background: transparent; /* Nền trong suốt */
+    border: none; /* Không có viền */
+    padding: 0; /* Không có padding */
+    margin-left: 10px; /* Điều chỉnh vị trí nếu cần */
+}
+/* Có thể thêm CSS tùy chỉnh khác nếu cần */
+.view-more {
+    color: rgb(12, 174, 12); /* Màu xanh lá cho chữ "Xem thêm" */
+    cursor: pointer; /* Thay đổi con trỏ khi di chuột qua chữ "Xem thêm" */
+    font-size: 0.8rem; /* Kích thước chữ bằng với mô tả */
+    text-decoration: underline; /* Gạch chân chữ "Xem thêm" để tạo sự chú ý */
+}
+
+
+
+
+
+
+
+
